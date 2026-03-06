@@ -10,6 +10,8 @@ The pipeline follows a medallion architecture:
 - Silver Layer – Cleaned and transformed data
 - Gold Layer – Business KPIs and analytics tables
 
+Raw Data → Bronze Layer → Silver Layer → Gold Layer → Business KPIs
+
 ## Tools Used
 - Python
 - PySpark
